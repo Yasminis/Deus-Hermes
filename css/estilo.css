@@ -1,0 +1,467 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0 auto;
+  width: 80%;
+  background-image: url("../imagens/fundo.jpg");
+  background-size: inherit;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 45px;
+  text-align: left;
+}
+
+h3 {
+  margin: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
+  opacity: 1;
+}
+
+div {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+li {
+  margin: 10px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cf560d;
+}
+
+a:active {
+  color: #ffffff;
+  margin: 10px 0px;
+  border-color: #9e5414;
+  border-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+/* CLASSES */
+
+.op {
+  color: #ffffff;
+}
+
+.opco {
+  color: #000;
+}
+
+.opcoes a {
+  color: #ffffff;
+  background-color: #401e01;
+  padding: 10px;
+  border-radius: 100px;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.opcoes a:hover {
+  color: #ffffff;
+  background-color: #59310e;
+}
+
+.opcoes a:visited {
+  color: #ffffff;
+  background-color: #59310e;
+}
+
+.opcoes a:active {
+  color: #ffffff;
+  background-color: #9e5414;
+  padding: 15px;
+}
+
+.colord {
+  width: 95%;
+  padding: 25px;
+  margin: 15px 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+  opacity: 0.7;
+}
+
+.galeria {
+  width: 260px;
+  display: ruby;
+  margin: 30px;
+}
+
+.galeria img {
+  height: auto;
+  width: 8em;
+  border: #59310e;
+  border-style: groove;
+  border-width: 20px;
+}
+
+.img2 {
+  margin: 10px;
+  border: #401e01;
+  border-style: double;
+  border-width: 40px;
+  border-radius: 1000px;
+}
+
+.inter {
+  width: 95%;
+  display: ruby;
+}
+
+.listas {
+  width: 50%;
+  border-width: 50px;
+  border: #000;
+  padding: 25px;
+  text-align: left;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+  opacity: 0.7;
+  margin: 30px;
+}
+
+.aru {
+  float: left;
+  width: 40%;
+}
+.arus {
+  width: 50%;
+  display: inline-block;
+  margin-top: 3.5em;
+}
+
+.somi {
+  width: 90%;
+}
+.somi img {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin-top: 5.5em;
+}
+.centro {
+  margin: 0 24%;
+}
+
+.fifu {
+  width: 80%;
+  margin: 5% 15%;
+}
+
+/*ID*/
+
+#marcia {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin: 5%;
+}
+
+#cab {
+  text-align: center;
+  /*position: fixed;*/
+  background-color: #401e01;
+  padding: 20px;
+  margin: 30px 0px;
+  margin-top: 0;
+  color: #ffffff;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+#rodape {
+  display: grid;
+  text-align: center;
+  margin: 30px 0px;
+  color: #000;
+  margin: 0 2%;
+}
+#rodape hr {
+  block-size: 1px;
+  border-color: #000;
+  background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0 auto;
+    width: 90%;
+    background-image: url("../imagens/fundo.jpg");
+    background-size: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 1em;
+  }
+
+  h2 {
+    margin: 20px;
+    line-height: 1.2em;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  h3 {
+    margin: 20px;
+    line-height: 1.2em;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  /*CLASSES*/
+
+  .opcoes a {
+    color: #ffffff;
+    background-color: #401e01;
+    padding: 6px;
+    border-radius: 100px;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+
+  .colord {
+    width: 85%;
+    padding: 25px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+    opacity: 0.7;
+  }
+
+  .aru {
+    align-items: center;
+    width: 40%;
+  }
+
+  .aru img {
+    width: 90%;
+    margin-left: 75px;
+  }
+
+  .arus {
+    width: 30%;
+    display: ruby;
+    text-align: center;
+    margin-top: 3em;
+    margin: 0;
+  }
+
+  .listas {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+    opacity: 0.7;
+  }
+
+  .centro {
+    margin: 0 2%;
+  }
+
+  .somi {
+    width: 90%;
+    align-items: center;
+  }
+  .somi img {
+    width: 40%;
+    margin-top: 2em;
+    display: none;
+  }
+
+  .img2 {
+    margin: 10px;
+    border: #401e01;
+    border-style: double;
+    border-width: 35px;
+    border-radius: 1000px;
+    width: 65%;
+  }
+
+  .galeria img {
+    height: auto;
+    width: 11em;
+    border: #59310e;
+    border-style: groove;
+    border-width: 20px;
+  }
+
+  /*ID*/
+
+  #cab {
+    text-align: center;
+    background-color: #401e01;
+    padding: 10px;
+    margin: 60px 0;
+    margin-top: 0;
+    color: #ffffff;
+    height: 30px;
+  }
+
+  #cab a {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  #rodape {
+    display: grid;
+    text-align: center;
+    margin: 30px 0;
+    color: #000;
+    margin: 0 2%;
+    font-size: 16px;
+  }
+  #rodape hr {
+    block-size: 1px;
+    border-color: #000;
+    background-color: #000;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    margin: 0 auto;
+    width: 90%;
+    background-image: url("../imagens/fundo.jpg");
+    background-size: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size: 55px;
+    line-height: 1em;
+  }
+
+  h2 {
+    margin: 20px;
+    line-height: 1.2em;
+    font-size: 37px;
+    text-align: left;
+  }
+
+  h3 {
+    margin: 20px;
+    line-height: 1.2em;
+    font-size: 27px;
+    text-align: left;
+  }
+
+  /*CLASSES*/
+
+  .opcoes a {
+    color: #ffffff;
+    background-color: #401e01;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+
+  .colord {
+    width: 85%;
+    padding: 25px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+    opacity: 0.7;
+  }
+
+  .aru {
+    align-items: center;
+    width: 40%;
+  }
+
+  .aru img {
+    width: 90%;
+    margin-left: 150px;
+  }
+
+  .arus {
+    width: 30%;
+    display: ruby;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  .listas {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #59310e, #7b4a1f, #9e6f46);
+    opacity: 0.7;
+  }
+
+  .centro {
+    margin: 0 2%;
+  }
+
+  .somi {
+    width: 90%;
+    align-items: center;
+  }
+  .somi img {
+    width: 40%;
+    margin-top: 2em;
+    display: none;
+  }
+
+  .img2 {
+    margin: 10px;
+    border: #401e01;
+    border-style: double;
+    border-width: 35px;
+    border-radius: 1000px;
+    width: 55%;
+  }
+
+  .galeria img {
+    height: auto;
+    width: 11em;
+    border: #59310e;
+    border-style: groove;
+    border-width: 20px;
+  }
+}
