@@ -311,7 +311,7 @@ a:active {
     border: #401e01;
     border-style: double;
     border-width: 35px;
-    border-radius: 1000px;
+    border-radius: 10000px;
     width: 65%;
   }
 
